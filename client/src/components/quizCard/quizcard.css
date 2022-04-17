@@ -1,0 +1,38 @@
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-description img {
+  height: 200px;
+  object-fit: contain;
+}
+.card-detail h1 {
+  text-transform: uppercase;
+  color: #c51230;
+  font-weight: 600;
+}
+.card-detail p {
+  text-align: center;
+  color: rgba(45, 45, 143, 0.732);
+  font-weight: 500;
+  height: 40px;
+}
+.card-detail h4 {
+  width: 30%;
+  padding: 3%;
+  background-color: #1890ff;
+  border-radius: 8px;
+  text-align: center;
+}
+.take-quiz {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 1.2%;
+  background-color: #c51230;
+  color: white;
+  font-size: 20px;
+  border: none;
+}

@@ -1,0 +1,32 @@
+.desc {
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.s-btn {
+  border: 1px solid #1890ff;
+}
+.desc h1 {
+  color: #c51230;
+
+  font-weight: 800;
+  margin: 10px;
+}
+.desc p {
+  text-align: center;
+  padding: 2%;
+  color: rgba(0, 0, 0, 0.681);
+  font-weight: 600;
+}
+
+.quizz-list {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

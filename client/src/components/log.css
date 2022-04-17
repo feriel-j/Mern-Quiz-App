@@ -1,0 +1,101 @@
+.register-form {
+  margin-top: 30px;
+  width: 40% !important;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 10px 3px rgba(214, 202, 202, 0.75);
+  -webkit-box-shadow: -2px 1px 10px 3px rgba(183, 171, 171, 0.75);
+  -moz-box-shadow: -2px 1px 10px 3px rgba(192, 184, 184, 0.75);
+}
+
+.register-form h1 {
+  width: 100%;
+  font-size: 45px;
+  padding: 5% 0;
+  margin-bottom: 3%;
+
+  font-weight: 700;
+  text-align: center;
+  color: #c51230;
+  border-bottom: 1px solid silver;
+}
+.register-form h6,
+.register-form h5,
+.register-form p {
+  color: #c51230;
+  text-align: center;
+  padding-top: 3%;
+  letter-spacing: 2;
+}
+.register-form h6 {
+  border-top: 1px solid rgba(237, 54, 54, 0.904);
+  padding-top: 10px;
+}
+.register-form p {
+  font-size: 10px;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+
+  padding: 1%;
+  margin-top: 2%;
+}
+
+.signup input {
+  border: rgba(89, 97, 98, 0.535) 1px solid;
+
+  border-radius: 3px;
+  margin: 0.5%;
+  pointer-events: visible;
+  padding: 2.5%;
+  outline: none;
+}
+.signup input:focus,
+.signup input:valid {
+  top: -5px;
+}
+::placeholder {
+  color: silver;
+  font-size: 1em;
+}
+.pass {
+  margin: -5px 0 20px 5px;
+  cursor: pointer;
+}
+.pass:hover {
+  text-decoration: underline;
+}
+
+.signup button {
+  background-color: #0d5fb1f3;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1.8%;
+  color: beige;
+  border: none;
+  font-size: 20px;
+}
+
+input::placeholder {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 743px) {
+  .nav1 h1 {
+    font-size: 0.5rem;
+    margin: 0;
+  }
+  .body-form img {
+    display: none;
+  }
+  .register-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

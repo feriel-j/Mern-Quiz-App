@@ -1,0 +1,76 @@
+.ques-card {
+  width: 90%;
+  margin-inline: auto;
+  text-align: center;
+}
+.ques-card h1 {
+  color: #c51230;
+}
+.options {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  padding: 2%;
+  margin-top: 20px;
+}
+.options button {
+  padding: 2%;
+  text-align: justify;
+  width: 40%;
+  background-color: #188ffff8;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+.options button span {
+  color: #c51230;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+}
+.result {
+  background-color: rgba(178, 178, 235, 0.664);
+  width: 60%;
+  margin-inline: auto;
+  margin-top: 100px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.result span {
+  color: #c51230;
+}
+.space {
+  padding: 1%;
+}
+.result h1 {
+  width: 100%;
+  text-align: center;
+}
+.next {
+  width: 70% !important;
+  margin: 10px auto;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.head-card h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgba(5, 5, 75, 0.84);
+  text-decoration: underline;
+  font-size: 28px;
+}
