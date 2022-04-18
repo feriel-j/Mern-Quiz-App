@@ -48,7 +48,7 @@ const Register = () => {
           onClick={() => {
             dispatch(userRegister(register));
             setTimeout(() => {
-              navigate("/profil");
+              navigate("/login");
             }, 1000);
             setTimeout(() => {
               window.location.reload();

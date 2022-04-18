@@ -23,7 +23,7 @@ const AddQuestion = ({ ping, setping, quiz, userId }) => {
       <Button
         type="primary"
         onClick={() => {
-          if (quiz?.questions.length < 4) {
+          if (quiz?.questions.length < 5) {
             setVisible(true);
           } else {
             handleAlert();
@@ -52,7 +52,9 @@ const AddQuestion = ({ ping, setping, quiz, userId }) => {
           <input
             type="text"
             placeholder="option-1"
-            onChange={(e) => setquest({ ...quest, option1: e.target.value })}
+            onChange={(e) => {
+              setquest({ ...quest, option1: e.target.value });
+            }}
           />
           <input
             type="text"
@@ -69,6 +71,7 @@ const AddQuestion = ({ ping, setping, quiz, userId }) => {
             placeholder="option-4"
             onChange={(e) => setquest({ ...quest, option4: e.target.value })}
           />
+
           <input
             type="text"
             placeholder="Correct answer"

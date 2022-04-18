@@ -17,7 +17,7 @@ const QuizzSchema = new schema({
     type: Date,
     default: Date.now,
   },
-  createdBy: {
+  creator: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "user",
   },
